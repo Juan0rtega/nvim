@@ -1,5 +1,7 @@
 require("config.lazy")
+local set = vim.opt
 
-vim.opt.shiftwidth = 4
-vim.opt.number = true
-vim.opt.relativenumber = true
+set.shiftwidth = 4
+set.number = true
+set.relativenumber = true
+set.clipboard = "unnamedplus"
